@@ -1,0 +1,65 @@
+{
+  "admin": [
+    {
+      "email": "admin@decagon.com",
+      "password": "issa"
+    }
+  ],
+  "employees": [
+    {
+      "id": 2,
+      "name": "Daniel Joseph",
+      "bank_name": "Guarantee Trust Bank",
+      "account_number": "011878970",
+      "qualification": "Ph.D.",
+      "designation": "Programmer",
+      "level": 10,
+      "salary": 8000000,
+      "payment_status": "paid"
+    },
+    {
+      "id": 3,
+      "name": "Martins Fredderick",
+      "bank_name": "Zenith Bank",
+      "account_number": "011898787",
+      "qualification": "Ph.D",
+      "designation": "Database Administrator",
+      "level": 9,
+      "salary": 7000000,
+      "payment_status": "pending"
+    },
+    {
+      "id": "4",
+      "name": "Linda Igbojionu",
+      "bank_name": "Diamond",
+      "account_number": "00096785544",
+      "qualification": "MSc",
+      "designation": "I&C Engineering Analyst",
+      "level": 8,
+      "salary": 6000000,
+      "payment_status": "paid"
+    },
+    {
+      "id": "5",
+      "name": "Ferdinand Adams",
+      "bank_name": "Access",
+      "account_number": "300356719",
+      "qualification": "BTech",
+      "designation": "Cost Engineer",
+      "level": 8,
+      "salary": 6000000,
+      "payment_status": "pending"
+    },
+    {
+      "id": "6",
+      "name": "Promise Admas",
+      "bank_name": "Diamond",
+      "account_number": "000967855",
+      "qualification": "BTech",
+      "designation": "8",
+      "level": 8,
+      "salary": 6000000,
+      "payment_status": "pending"
+    }
+  ]
+}
