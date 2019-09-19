@@ -7,36 +7,14 @@
   ],
   "employees": [
     {
-      "id": 2,
-      "name": "Daniel Joseph",
-      "bank_name": "Guarantee Trust Bank",
-      "account_number": "011878970",
-      "qualification": "Ph.D.",
-      "designation": "Programmer",
-      "level": 10,
-      "salary": 8000000,
-      "payment_status": "paid"
-    },
-    {
-      "id": 3,
-      "name": "Martins Fredderick",
-      "bank_name": "Zenith Bank",
-      "account_number": "011898787",
-      "qualification": "Ph.D",
-      "designation": "Database Administrator",
-      "level": 9,
-      "salary": 7000000,
-      "payment_status": "pending"
-    },
-    {
       "id": "4",
       "name": "Linda Igbojionu",
       "bank_name": "Diamond",
       "account_number": "00096785544",
-      "qualification": "MSc",
+      "qualification": "",
       "designation": "I&C Engineering Analyst",
-      "level": 8,
-      "salary": 6000000,
+      "level": "8",
+      "salary": "6000000",
       "payment_status": "paid"
     },
     {
@@ -52,13 +30,43 @@
     },
     {
       "id": "6",
-      "name": "Promise Admas",
-      "bank_name": "Diamond",
-      "account_number": "000967855",
+      "name": "Frank James",
+      "bank_name": "Access",
+      "account_number": "300356719",
       "qualification": "BTech",
-      "designation": "8",
+      "designation": "Cost Engineer",
       "level": 8,
       "salary": 6000000,
+      "payment_status": "pending"
+    },
+    {
+      "id": "1",
+      "name": "Ngozi James",
+      "bank_name": "GTB",
+      "account_number": "2233456778",
+      "qualification": "BS.c",
+      "designation": "Help Desk",
+      "level": "8",
+      "payment_status": "pending"
+    },
+    {
+      "id": "2",
+      "name": "Houseofbella",
+      "bank_name": "GTB",
+      "account_number": "234265738",
+      "qualification": "BS.c",
+      "designation": "dfhjllkjjkjklhbb",
+      "level": "7",
+      "payment_status": "paid"
+    },
+    {
+      "id": "3",
+      "name": "Gift Blesssing",
+      "bank_name": "GTB",
+      "account_number": "445527383658",
+      "qualification": "BTech",
+      "designation": "fghjkklshhjkj",
+      "level": "8",
       "payment_status": "pending"
     }
   ]
