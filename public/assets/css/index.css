@@ -1,7 +1,8 @@
 #updateForm,
-#newForm {
+#newForm,#searchForm,#payForm{
 	display: none;
 }
+
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
@@ -16,4 +17,7 @@ table {
   
   tr:nth-child(even) {
     background-color: #dddddd;
+  }
+  .hide {
+    display:none
   }
