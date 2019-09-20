@@ -127,9 +127,9 @@
                         <input type="text" class="form-control" id="updatePayStat" placeholder="Payment Status">
                     </div>
                 </div>
-                <button id="updateEmployee" type="submit" class="btn btn-primary">Update Employee</button>
+                <button id="updateEmployee" type="submit" class="btn btn-primary">Update Employee</button><br><br>
             </form>
-
+        
         </div>
         <button id="searchEmpBtn" class="btn btn-primary btn-block">Search Name </button><br><br>
         <form id="searchForm">
@@ -141,38 +141,34 @@
                 </div>
             </div>
 
-            <!--input type="text" class="form-control" name="search" id="search-box"
-                placeholder="Search Employee Details"-->
-            <!--button id="search-btn" class="btn btn-primary">Search</button-->
-            <button id="searchName" type="enter" class="btn btn-primary btn-block">Enter</button><br><br>
+            <button id="searchName" type="enter" class="btn btn-primary">Enter</button><br><br>
         </form>
-        <button id="payEmpBtn" class="btn btn-primary btn-block">Pay Employee </button><br><br>
-        <form id="payForm">
-            <!--div id="payEmployee"-->
-            <button id="payEmployee" type="click" class="btn btn-primary">Click</button><br><br>
-        </form>
-
+        <button id="payEmpBtn" class="btn btn-primary btn-block">Pay Employee </button>
         <br><br>
-        <!-- TABLE -->
-        <table id="employeeTable" class="hide table table-bordered table-hover">
-            <thead>
-                <th>ID</th>
-                <th>Full Name</th>
-                <th>Bank Name</th>
-                <th>Account Name</th>
-                <th>Qualification</th>
-                <th>Designation</th>
-                <th>Level</th>
-                <th>Salary<br>
-                    <div></div>₦</br>
+            <!-- TABLE -->
+            <table id="employeeTable" class="table table-bordered table-hover">
+                <thead>
+                    <th>ID</th>
+                    <th>Full Name</th>
+                    <th>Bank Name</th>
+                    <th>Account Name</th>
+                    <th>Qualification</th>
+                    <th>Designation</th>
+                    <th>Level</th>
+                    <th>Salary<br>
+                        <div></div>₦</br>
+                        </div>
+                    </th>
+                    <th>Payment Status</th>
+                    <th>Action</th>
+                </thead>
+                <tbody id="employeeBody"></tbody>
+            </table>
+            </div>
     </div>
-    </th>
-    <th>Payment Status</th>
-    <th>Action</th>
-    </thead>
-    <tbody id="employeeBody"></tbody>
-    </table>
-    </div>
+     <!--div id="payEmployee"-->
+</div>
+
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="./assets/js/index.js"></script>
 </body>

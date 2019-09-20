@@ -7,67 +7,137 @@
   ],
   "employees": [
     {
-      "id": "4",
+      "id": "1",
       "name": "Linda Igbojionu",
-      "bank_name": "Diamond",
+      "bank_name": "Eco Bank",
       "account_number": "00096785544",
-      "qualification": "",
-      "designation": "I&C Engineering Analyst",
-      "level": "8",
-      "salary": "6000000",
+      "qualification": "Ph.D",
+      "designation": " Engineering Analyst",
+      "level": "12",
+      "salary": "1000000",
       "payment_status": "paid"
     },
     {
-      "id": "5",
+      "id": "2",
       "name": "Ferdinand Adams",
       "bank_name": "Access",
       "account_number": "300356719",
-      "qualification": "BTech",
+      "qualification": "MS.c",
       "designation": "Cost Engineer",
-      "level": 8,
-      "salary": 6000000,
-      "payment_status": "pending"
-    },
-    {
-      "id": "6",
-      "name": "Frank James",
-      "bank_name": "Access",
-      "account_number": "300356719",
-      "qualification": "BTech",
-      "designation": "Cost Engineer",
-      "level": 8,
-      "salary": 6000000,
-      "payment_status": "pending"
-    },
-    {
-      "id": "1",
-      "name": "Ngozi James",
-      "bank_name": "GTB",
-      "account_number": "2233456778",
-      "qualification": "BS.c",
-      "designation": "Help Desk",
-      "level": "8",
-      "payment_status": "pending"
-    },
-    {
-      "id": "2",
-      "name": "Houseofbella",
-      "bank_name": "GTB",
-      "account_number": "234265738",
-      "qualification": "BS.c",
-      "designation": "dfhjllkjjkjklhbb",
-      "level": "7",
+      "level": "9",
+      "salary": "900000",
       "payment_status": "paid"
     },
     {
       "id": "3",
+      "name": "Frank James",
+      "bank_name": "Access",
+      "account_number": "676835679",
+      "qualification": "BTech",
+      "designation": "Cost Engineer",
+      "level": 8,
+      "salary": 800000,
+      "payment_status": "paid"
+    },
+    {
+      "id": "4",
+      "name": "Ngozi James",
+      "bank_name": "GTB",
+      "account_number": "2233456778",
+      "qualification": "BS.c",
+      "designation": "Security Specialist",
+      "level": "8",
+      "payment_status": "paid"
+    },
+    {
+      "id": "5",
+      "name": "Peter Paul",
+      "bank_name": "GTB",
+      "account_number": "234265738",
+      "qualification": "BS.c",
+      "designation": "engineering Associate",
+      "level": "9",
+      "payment_status": "paid"
+    },
+    {
+      "id": "6",
       "name": "Gift Blesssing",
       "bank_name": "GTB",
-      "account_number": "445527383658",
+      "account_number": "445527383",
       "qualification": "BTech",
-      "designation": "fghjkklshhjkj",
+      "designation": "Hardware Engineering",
       "level": "8",
-      "payment_status": "pending"
+      "payment_status": "paid"
+    },
+    {
+      "id": "7",
+      "name": "Faith Moses",
+      "bank_name": "Eco-Bank",
+      "account_number": "3455667",
+      "qualification": "BTech",
+      "designation": "Human Resource Manager",
+      "level": "9",
+      "payment_status": "paid"
+    },
+    {
+      "id": "8",
+      "name": "Priscilia Thomas",
+      "bank_name": "unity",
+      "account_number": "4354677882",
+      "qualification": "HND",
+      "designation": "Engineering Trainee",
+      "level": "7",
+      "payment_status": "paid"
+    },
+    {
+      "id": "9",
+      "name": "Francis Abiola",
+      "bank_name": "Zenith ",
+      "account_number": "345667890",
+      "qualification": "BS.c",
+      "designation": "Engineering Trainee",
+      "level": "8",
+      "payment_status": "paid"
+    },
+    {
+      "id": "10",
+      "name": "Peter Sunday",
+      "bank_name": "GTB",
+      "account_number": "34536383894",
+      "qualification": "BTech",
+      "designation": "Engineering Trainee",
+      "level": "8",
+      "payment_status": "paid"
+    },
+    {
+      "id": "10",
+      "name": "Promise Uche",
+      "bank_name": "GTB",
+      "account_number": "9988754345",
+      "qualification": "BS.c",
+      "designation": "Human Resource",
+      "level": "8",
+      "payment_status": "paid"
+    },
+    {
+      "id": "11",
+      "name": "Uche Paul",
+      "bank_name": "GTB",
+      "account_number": "56437838899",
+      "qualification": "HND",
+      "designation": "Front Desk",
+      "level": "7",
+      "payment_status": "paid"
+    },
+    {
+      "id": "12",
+      "name": "Nnamdi Okoro",
+      "bank_name": "Standic plc.",
+      "account_number": "500000",
+      "qualification": "OND",
+      "designation": "Cleaner",
+      "level": "5",
+      "payment_status": "paid"
     }
   ]
 }

@@ -1,5 +1,5 @@
 #updateForm,
-#newForm,#searchForm,#payForm{
+#newForm,#searchForm{
 	display: none;
 }
 
@@ -18,6 +18,4 @@ table {
   tr:nth-child(even) {
     background-color: #dddddd;
   }
-  .hide {
-    display:none
-  }
+  

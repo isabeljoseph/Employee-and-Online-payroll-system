@@ -35,8 +35,10 @@ $(document).ready(function () {
 	$("#newEmpBtn").on("click", function (e) {
 		// toggle new employee buttons
 		$("#newForm").toggle();
+		$("#updateForm").toggle();
+		
 	});
-	// Read all employees
+	// Read all employees create new employee (ajax)
 	function getEmployees() {
 		$('#employeeBody').html('');
 		$.ajax({
@@ -53,7 +55,7 @@ $(document).ready(function () {
 						.append($("<td>").append(employee.qualification))
 						.append($("<td>").append(employee.designation))
 						.append($("<td>").append(employee.level))
-						.append($("<td>").append(`${employee.salary}`))
+						.append($("<td>").append(employee.salary))
 						.append($("<td>").append(employee.payment_status))
 						.append($("<td>").append(`
 					<i class = "far fa-edit editEmp" data-empid="` + employee.id + `"></i>
@@ -67,16 +69,27 @@ $(document).ready(function () {
 			}
 		});
 	}
-	// search one employee
+	// search one employee jQuery
 
 	$("#searchEmpBtn").on("click", function () {
 
 		$("#searchForm").toggle();
-		$('#employeeTable').toggleClass("hide");
+		// $('#employeeTable').toggleClass
+		
 
 	});
 
-	// Get one employee
+	// pay all employee
+	$("#payEmpBtn").on("click", function () {
+
+		$("#payEmpBtn").toggle();
+		// $('#employeeTable').toggleClass
+		
+
+	});
+
+	
+	// Get one employee, update employee
 	function getOneEmployee(num) {
 		$("#updateForm").show();
 		id = num;
@@ -117,7 +130,7 @@ $(document).ready(function () {
 		$("#newForm").trigger("reset");
 		$("#newForm").toggle();
 		getEmployees()
-		$('#employeeTable').css("display", "block");
+		// $('#employeeTable').css("display", "block");
 		e.preventDefault();
 	});
 
@@ -165,7 +178,7 @@ $(document).ready(function () {
 			bank_name: $($("#updateForm")[0].updateBank).val(),
 			account_number: $($("#updateForm")[0].updateAcct).val(),
 			qualification: $($("#updateForm")[0].updateQualif).val(),
-			designation: $($("#updateDes")[0].updateDes).val(),
+			designation: $("#updateDes").val(),
 			level: $($("#updateForm")[0].updateLevel).val(),
 			salary: $($("#updateForm")[0].updateSalary).val(),
 			payment_status: $($("#updateForm")[0].updatePayStat).val()
